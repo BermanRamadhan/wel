@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Untuk Imaa ♡</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+    <style>
+      :root { --ink: #3d2830; --paper: #fff8eb; --pink: #ff8097; --red: #e94b68; --line: #402a32; }
+      * { box-sizing: border-box; }
+      body { margin: 0; min-height: 100vh; overflow: hidden; background: #f3cfb8; color: var(--ink); font-family: "DM Mono", monospace; }
+      body::before { content: ""; position: fixed; inset: 0; opacity: .32; pointer-events: none; background-image: radial-gradient(#b8776b 0.7px, transparent 0.7px); background-size: 5px 5px; }
+      .doodle { position: fixed; font-size: clamp(2rem, 6vw, 5rem); z-index: 0; filter: drop-shadow(2px 3px 0 #3d283026); animation: bob 3.5s ease-in-out infinite; }
+      .one { top: 8%; left: 9%; transform: rotate(-15deg); } .two { right: 10%; top: 13%; animation-delay: -1.5s; } .three { left: 12%; bottom: 9%; animation-delay: -2.1s; }
+      .card { position: relative; z-index: 1; width: min(92vw, 570px); min-height: 610px; margin: max(3vh, 22px) auto; padding: 28px 28px 34px; text-align: center; background: var(--paper); border: 3px solid var(--line); border-radius: 17px; box-shadow: 9px 10px 0 #734451; overflow: hidden; animation: enter .7s cubic-bezier(.2,.8,.2,1) both; }
+      .card::after { content: "for imaa only"; position: absolute; top: 18px; right: -30px; width: 130px; padding: 6px; transform: rotate(34deg); background: #ffdb64; border-block: 2px solid var(--line); color: var(--ink); font-size: .6rem; letter-spacing: .08em; }
+      .eyebrow { font-size: .68rem; letter-spacing: .13em; text-transform: uppercase; margin: 4px 0 20px; }
+      .bear { position: relative; width: 156px; height: 138px; margin: 0 auto 18px; }
+      .ear, .head, .body { position: absolute; background: #c98662; border: 3px solid var(--line); }
+      .ear { width: 49px; height: 49px; border-radius: 50%; top: 8px; } .ear.left { left: 15px; } .ear.right { right: 15px; }
+      .head { width: 118px; height: 98px; left: 19px; top: 24px; border-radius: 48% 48% 45% 45%; z-index: 1; }
+      .face { position: absolute; left: 37px; top: 48px; width: 82px; height: 60px; border-radius: 48%; background: #f4c99e; border: 2px solid var(--line); z-index: 2; }
+      .eye { position: absolute; width: 7px; height: 10px; top: 20px; border-radius: 50%; background: var(--line); } .eye.left { left: 22px; } .eye.right { right: 22px; }
+      .snout { position: absolute; width: 20px; height: 16px; left: 29px; top: 30px; border-radius: 50%; background: var(--line); } .mouth { position: absolute; width: 24px; height: 12px; left: 28px; top: 42px; border-bottom: 2px solid var(--line); border-radius: 50%; }
+      .body { width: 89px; height: 44px; left: 34px; bottom: 0; border-radius: 44px 44px 22px 22px; z-index: 0; }
+      .heart { position: absolute; z-index: 3; right: 2px; bottom: 0; font-size: 2.8rem; transform: rotate(11deg); animation: pulse 1.3s ease-in-out infinite; }
+      h1 { margin: 0; font-family: Fraunces, Georgia, serif; font-size: clamp(2.2rem, 8vw, 3.8rem); line-height: .98; letter-spacing: -.06em; }
+      h1 em { color: var(--red); font-style: italic; }
+      .question { max-width: 390px; margin: 18px auto 26px; font-size: .88rem; line-height: 1.75; }
+      .buttons { position: relative; height: 78px; display: flex; justify-content: center; gap: 13px; align-items: center; }
+      button { border: 2px solid var(--line); border-radius: 10px; min-width: 120px; padding: 13px 18px; box-shadow: 4px 4px 0 var(--line); cursor: pointer; font: 500 .84rem "DM Mono", monospace; transition: transform .16s, box-shadow .16s; }
+      button:hover { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--line); } button:active { transform: translate(4px,4px); box-shadow: 0 0 0 var(--line); }
+      #yes { background: var(--pink); color: var(--ink); } #no { background: #fff; color: var(--ink); }
+      .note { margin-top: 22px; font-size: .64rem; opacity: .65; } .spark { color: var(--red); }
+      @keyframes bob { 50% { translate: 0 -12px; } } @keyframes pulse { 50% { scale: 1.13; } } @keyframes enter { from { opacity: 0; transform: rotate(-2deg) translateY(25px); } to { opacity: 1; transform: rotate(-2deg); } }
+      @media (max-height: 680px) { .card { min-height: 0; margin: 12px auto; padding-block: 18px; } .bear { transform: scale(.8); height: 110px; margin-bottom: 2px; } .question { margin: 12px auto 16px; } }
+    </style>
+  </head>
+  <body>
+    <span class="doodle one">✦</span><span class="doodle two">♡</span><span class="doodle three">✿</span>
+    <main class="card">
+      <p class="eyebrow">surat rahasia untuk imaa <span class="spark">★</span></p>
+      <div class="bear" aria-hidden="true"><i class="ear left"></i><i class="ear right"></i><i class="head"></i><i class="face"><b class="eye left"></b><b class="eye right"></b><b class="snout"></b><b class="mouth"></b></i><i class="body"></i><span class="heart">♥</span></div>
+      <h1>Imaa, mau <em>ngedate</em><br />bareng aku?</h1>
+      <p class="question">Aku janji bakal bawa cerita seru, perhatian ekstra, dan mungkin sedikit jajanan favoritmu. Jadi... mau ya? ˚₊‧♡</p>
+      <div class="buttons" id="buttons"><button id="yes">YES, mauu! ♡</button><button id="no">no... hehe</button></div>
+      <p class="note">psst—sepertinya tombol “no” agak pemalu.</p>
+    </main>
+    <script>
+      const no = document.querySelector('#no'); const area = document.querySelector('#buttons');
+      function runAway() { const a = area.getBoundingClientRect(), b = no.getBoundingClientRect(); no.style.position = 'absolute'; no.style.left = Math.max(0, Math.random() * (a.width - b.width)) + 'px'; no.style.top = Math.max(0, Math.random() * (a.height - b.height)) + 'px'; }
+      no.addEventListener('mouseenter', runAway); no.addEventListener('click', e => { e.preventDefault(); runAway(); }); no.addEventListener('touchstart', e => { e.preventDefault(); runAway(); }, { passive: false });
+      document.querySelector('#yes').addEventListener('click', () => { const text = encodeURIComponent('mau banget lahh yakali gamauu mah'); window.location.href = 'https://wa.me/6285767147917?text=' + text; });
+    </script>
+  </body>
+</html>
